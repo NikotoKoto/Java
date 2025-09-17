@@ -148,7 +148,118 @@ System.out.println(map); // {Alice=25, Bob=30}
 ```
 📌 Use when: you need sorted keys.
 
-##
+## Stream 
+
+### What is a Stream ?
+
+A Stream is like a pipeline to process data.
+ 
+<ul>
+	<li>It doesn’t store data itself → it reads from a source (List, Set, array, file…).</li>	
+	<li>It lets you transform, filter, or combine data in a declarative way (describe what you want, not how to loop).</li>
+</ul>
+
+👉 Think of it like a conveyor belt in a factory:
+
+<ul>
+	<li>Objects go in (source).</li>
+	<li>They pass through filters and transformations (operations).</li>
+	<li>You get a final result (terminal operation).</li>
+</ul>
+
+### Stream workflow
+
+Every stream pipeline has 3 steps:
+
+	
+#### Source → where the data comes from.
+
+Example:
+```
+List<String> names = List.of("Alice", "Bob", "Charlie");
+Stream<String> stream = names.stream();
+```
+#### Intermediate operations → transform/filter the stream.
+
+	•	filter() → keep some elements.
+	•	map() → transform each element.
+	•	sorted() → order them.
+	•	distinct() → remove duplicates.
+
+👉 They return a new Stream, so you can chain them.
+
+ ####	Terminal operation → produce the result.
+ 
+	•	collect(toList()) → build a list.
+	•	forEach() → iterate and print.
+	•	reduce() → combine into one value (sum, max…).
+
+👉 After this, the stream is consumed (cannot be reused).
+
+⸻
+
+🔹 Example
+
+```
+List<String> names = List.of("Alice", "Bob", "Charlie", "Bob");
+
+List<String> result = names.stream()          // 1. source
+    .filter(n -> n.length() > 3)             // 2. keep names longer than 3
+    .distinct()                              // 2. remove duplicates
+    .sorted()                                // 2. sort alphabetically
+    .toList();                               // 3. collect into a list
+
+System.out.println(result); // [Alice, Charlie]
+```
+🔹 Common Stream Operations
+
+Intermediate (return Stream)
+
+	•	filter(Predicate) → keep some elements.
+	•	map(Function) → transform elements.
+	•	sorted() → sort.
+	•	distinct() → remove duplicates.
+	•	limit(n) → take first n elements.
+	•	skip(n) → skip first n elements.
+
+Terminal (end the pipeline)
+
+	•	collect(toList()) → build a new list.
+	•	forEach() → apply action on each element.
+	•	reduce() → combine into one result.
+	•	count() → number of elements.
+	•	anyMatch(), allMatch(), noneMatch() → boolean checks.
+
+⸻
+
+📌 Why use Streams instead of loops?
+
+👉 Classic loop:
+
+```
+List<String> result = new ArrayList<>();
+for (String name : names) {
+    if (name.length() > 3 && !result.contains(name)) {
+        result.add(name);
+    }
+}
+Collections.sort(result);
+```
+
+👉 Stream version:
+
+```
+List<String> result = names.stream()
+    .filter(n -> n.length() > 3)
+    .distinct()
+    .sorted()
+    .toList();
+```
+⚡ Much cleaner and easier to read!
+
+
+
+
 
 
 
