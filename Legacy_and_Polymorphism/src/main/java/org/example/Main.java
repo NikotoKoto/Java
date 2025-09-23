@@ -29,30 +29,6 @@ public class Main {
             a.manger("choucroute");
         }
 
-        /*
-        Handle stream
-         */
-
-        //Ex.1
-        List<String> names = List.of("Alice", "Bob", "Charlie", "David", "Eve");
-        List<String> name = names.stream()
-                .map(String::toLowerCase)
-                .filter(n -> n.startsWith("a"))
-                .toList();
-
-        System.out.println(name);
-
-
-        //Ex.2
-
-        List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6);
-        Long number = numbers.stream()
-                .filter(n -> n % 2 == 0)
-                .count();
-
-        System.out.println(number);
-
-
 
 
     }
