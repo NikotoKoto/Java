@@ -10,7 +10,7 @@ public class FizzBuzz {
         if(input%5==0){
             result.append("Buzz \n");
         }
-        if(input%3==0 && input%5==0){
+        if(input%15==0 ){
             result.append("FizzBuzz \n");
         }
 

@@ -4,17 +4,15 @@ import java.util.HashMap;
 
 public class TwoSum {
     public static int[] twoNumbers(int[] input, int target){
-        int[] tab;
-        for(int i = 0 ; i< input.length; i++){
+       HashMap <Integer, Integer> map = new HashMap<>();
+       for( int i = 0 ; i< input.length; i++){
+           int complement = target - input[i];
+           if(map.containsKey(complement) ){
+           return new int[]{map.get(complement),i};
+           }
+              map.put(input[i], i);
 
-            for(int j =0 ; j< input.length; j++){
-                if(j != i && (input[j] + input[i] == target)){
-                   return new int[]{i,j};
-                }
-            }
-
-
-        }
-            return new int[]{};
+       }
+       return new int[]{};
     }
 }

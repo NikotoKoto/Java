@@ -20,7 +20,7 @@ public class Main {
        System.out.println(FizzBuzz.FizzBuzzFunction(3));
        System.out.println(FindMax.FindMaxInArray(3, 7, 2, 9, 5));
        System.out.println(Palyndrome.isPalyndrome("kayak"));
-       System.out.println(FrequencyOfCharacters.FrequencyChar("banana"));
+       System.out.println(Palyndrome.isPalyndrome(101));
        System.out.println(FrequencyOfCharacters.FrequencyChar("banana"));
        System.out.println(Arrays.toString(TwoSum.twoNumbers(new int[]{3,5,4,6,2}, 9)));
        System.out.println(AnagramCheck.isAnagram("java","spring"));

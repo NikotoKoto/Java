@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33803eb0-3b9a-4f16-bd8a-16620fa58457" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Algorythm/src/main/java/org/example/Fizzbuzz/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythm/src/main/java/org/example/Fizzbuzz/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythm/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythm/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythm/src/main/java/org/example/Palyndrome/Palyndrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythm/src/main/java/org/example/Palyndrome/Palyndrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorythm/src/main/java/org/example/TwoSum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorythm/src/main/java/org/example/TwoSum/TwoSum.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NikotoKoto&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NikotoKoto/Java&quot;,
+    &quot;accountId&quot;: &quot;807b7cd5-6743-4d91-a154-e0a1984d918a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="32oVKbKmbkRmnvYegkuollTjAtQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/nicolasfloris/Dev/Project/Java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Java" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33803eb0-3b9a-4f16-bd8a-16620fa58457" name="Changes" comment="" />
+      <created>1758086849096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758086849096</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
