@@ -1,5 +1,39 @@
 # Java
 
+## 4 OOP pillars
+
+### Encapsulation
+
+Is the fact of making fields private and managing them with setters and getters.
+
+### Inheritance 
+
+Is the fact of inheriting different methods from the parent class into the child class.
+
+### Polymorphism 
+
+Is the fact that an object can take multiple forms. We ca, have overloading and overriding. Override changes the body of the function, whereas overload changes the signature by adding ohter parameters but keeps the same name.
+
+### Abstraction 
+
+Is the fact of having an abstract class that cannot be instantiated and is used as a model for child classes.
+
+## Difference between class, Abstract class and interface
+
+### Class
+- A class is a blueprint for objects.
+- It can have attributes and methods
+- full implementation
+
+### Abstract class
+ - Cannot be instantiatied 
+ - Can contain abstract method, concrete method, attributes / constructor
+
+### Interface 
+- Define a contract: classes must implement all methods.
+- ore Java 8: only abstract methods + constants.
+- Since Java 8: can have default methods (with body) and static methods.
+- Since Java 9: can even have private methods inside.
 
 ## Java Collections
 
