@@ -291,7 +291,33 @@ List<String> result = names.stream()
 ```
 ⚡ Much cleaner and easier to read!
 
+## Difference between "final" and "records"
 
+### Final 
+
+final is a keyword that means something cannot be changed.
+
+- variable cannot be reassigned.
+- attributes must be assigned once.
+- method cannot be overridden.
+- class cannot be extend
+
+### Records 
+
+Record is a special class type designed for immutable data.
+
+All attributes are final and private automatically.
+
+The class gets: 
+- constructor 
+- getters and setters
+- toString()
+- equals() and hashcode() generated automatically.
+
+### Resume
+
+- final, keyword that prevents reassignement/extension or orverrding.
+- record, a class definition designed to be immutable data carriers.
 
 
 
